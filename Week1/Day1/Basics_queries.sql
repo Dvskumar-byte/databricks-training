@@ -193,7 +193,7 @@
 ---
 **Query #10**
 
-    SELECT * FROM Employee WHERE name LIKE '__J%';
+    SELECT * FROM Employee WHERE name LIKE '__o%';
 
 There are no results to be displayed.
 
