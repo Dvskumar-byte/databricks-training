@@ -165,9 +165,20 @@
 ---
 **Query #8**
 
-    SELECT * FROM Employee WHERE name LIKE '%@%';
+    select * from Employee
+    where name like '%a%';
 
-There are no results to be displayed.
+| emp_id | name        | age | salary   | department_id | hire_date  |
+| ------ | ----------- | --- | -------- | ------------- | ---------- |
+| 2      | Jane Smith  | 34  | 60000.00 | 2             | 2019-07-23 |
+| 5      | Charlie P.  | 29  | 50000.00 | 2             | 2019-12-01 |
+| 6      | David Green | 38  | 70000.00 | 4             | 2022-05-18 |
+| 7      | Eve Black   | 40  | 55000.00 | 3             | 2021-08-30 |
+| 8      | Frank White | 32  | 48000.00 |               | 2021-07-10 |
+| 9      | Grace Kelly | 27  | 65000.00 | 1             | 2018-11-13 |
+| 10     | Hannah Lee  | 30  | 53000.00 | 4             | 2020-02-25 |
+
+---
 
 ---
 **Query #9**
